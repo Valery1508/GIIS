@@ -93,7 +93,7 @@ public class CustomLineChart extends Application {
         });
         brezenhemBtn.setOnAction(event -> {
             clearLineChart();
-            currentAlgorithm = new Brezenhem();
+            //currentAlgorithm = new Brezenhem();
         });
         vuBtn.setOnAction(event -> {
             clearLineChart();
